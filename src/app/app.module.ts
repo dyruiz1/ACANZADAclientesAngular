@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { FormareservaComponent } from './formareserva/formareserva.component';
 import { HabitacionesComponent } from './habitaciones/habitaciones.component';
 import { DescripcionComponent } from './descripcion/descripcion.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,13 +19,10 @@ import { DescripcionComponent } from './descripcion/descripcion.component';
     HomeComponent,
     FormareservaComponent,
     HabitacionesComponent,
-    DescripcionComponent
+    DescripcionComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
