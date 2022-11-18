@@ -12,8 +12,6 @@ import { DescripcionComponent } from './descripcion/descripcion.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ServiciosHotelComponent } from './servicios-hotel/servicios-hotel.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
