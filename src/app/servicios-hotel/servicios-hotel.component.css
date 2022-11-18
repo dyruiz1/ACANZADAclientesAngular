@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+}
+.titulo{
+  color: #005a87;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.banner2{
+  background-image: url('../../assets/img/servicio20.jpg');
+  background-position: top center;
+  background-attachment: fixed;
+  position:relative;
+  z-index: 1;
+  height: 350px;
+
+}
+.titulos{
+  text-align: center;
+  
+}
+

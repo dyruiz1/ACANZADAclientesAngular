@@ -10,6 +10,9 @@ import { FormareservaComponent } from './formareserva/formareserva.component';
 import { HabitacionesComponent } from './habitaciones/habitaciones.component';
 import { DescripcionComponent } from './descripcion/descripcion.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ServiciosHotelComponent } from './servicios-hotel/servicios-hotel.component';
+
+
 
 @NgModule({
   declarations: [
@@ -20,9 +23,15 @@ import { HttpClientModule } from '@angular/common/http';
     FormareservaComponent,
     HabitacionesComponent,
     DescripcionComponent,
+    ServiciosHotelComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
+
 export class AppModule {}
+
+
+
+
